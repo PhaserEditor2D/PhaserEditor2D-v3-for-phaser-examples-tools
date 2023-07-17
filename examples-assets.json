@@ -1157,9 +1157,9 @@
     "/assets/spine/4.1/tank/tank-pro.json",
     "/assets/spine/4.1/tank/tank-pma.atlas",
     "/assets/spine/4.1/raptor/raptor-pma.png",
+    "/assets/spine/4.1/coin/coin-pma.png",
     "/assets/spine/4.1/vine/vine-pma.png",
-    "/assets/spine/4.1/tank/tank-pma.png",
-    "/assets/spine/4.1/coin/coin-pma.png"
+    "/assets/spine/4.1/tank/tank-pma.png"
   ],
   "src/spine4/webgl test 4.js": [
     "/src/spine4/webgl test 4.js",
@@ -1231,8 +1231,8 @@
     "/assets/spine/4.1/demos/demos.json",
     "/assets/spine/4.1/demos/atlas1.atlas",
     "/assets/spine/4.1/demos/atlas2.atlas",
-    "/assets/spine/4.1/demos/atlas2.png",
-    "/assets/spine/4.1/demos/atlas1.png"
+    "/assets/spine/4.1/demos/atlas1.png",
+    "/assets/spine/4.1/demos/atlas2.png"
   ],
   "src/spine4/spine parallel scene test.js": [
     "/src/spine4/spine parallel scene test.js"
@@ -1425,8 +1425,8 @@
     "/assets/spine/3.8/tank/tank-pro.atlas",
     "/assets/spine/3.8/raptor/raptor-pro.png",
     "/assets/spine/3.8/vine/vine-pro.png",
-    "/assets/spine/3.8/tank/tank-pro.png",
-    "/assets/spine/3.8/coin/coin-pro.png"
+    "/assets/spine/3.8/coin/coin-pro.png",
+    "/assets/spine/3.8/tank/tank-pro.png"
   ],
   "src/spine3/webgl test 4.js": [
     "/src/spine3/webgl test 4.js",
@@ -1501,9 +1501,9 @@
     "/assets/spine/3.8/demos/demos.json",
     "/assets/spine/3.8/demos/atlas1.atlas",
     "/assets/spine/3.8/demos/atlas2.atlas",
+    "/assets/spine/3.8/demos/atlas2.png",
     "/assets/spine/3.8/demos/atlas1.png",
-    "/assets/spine/3.8/demos/atlas12.png",
-    "/assets/spine/3.8/demos/atlas2.png"
+    "/assets/spine/3.8/demos/atlas12.png"
   ],
   "src/spine3/spine parallel scene test.js": [
     "/src/spine3/spine parallel scene test.js"
@@ -1771,12 +1771,10 @@
   ],
   "src/scenes/sub game demo/boot.json": [
     "/js/TweenMax.min.js",
-    "/js/boot.js",
-    "/src/scenes/sub game demo/boot.json",
-    "/src/scenes/sub game demo/Preloader.js?_=1689624515305",
-    "/src/scenes/sub game demo/WorldMap.js?_=1689624515306",
-    "/src/scenes/sub game demo/SubGame.js?_=1689624515307",
-    "/src/scenes/sub game demo/main.js?_=1689624515308",
+    "/src/scenes/sub game demo/Preloader.js",
+    "/src/scenes/sub game demo/WorldMap.js",
+    "/src/scenes/sub game demo/SubGame.js",
+    "/src/scenes/sub game demo/main.js",
     "/assets/tests/space/nebula.jpg",
     "/assets/tests/space/ship.png",
     "/assets/tests/space/space.png",
@@ -1883,22 +1881,18 @@
     "/assets/sprites/longarrow.png"
   ],
   "src/scenes/multi demo/boot.json": [
-    "/js/TweenMax.min.js",
-    "/js/boot.js",
-    "/src/scenes/multi demo/boot.json"
+    "/js/TweenMax.min.js"
   ],
   "src/scenes/moving scenes demo/boot.json": [
     "/js/TweenMax.min.js",
-    "/js/boot.js",
-    "/src/scenes/moving scenes demo/boot.json",
-    "/src/scenes/moving scenes demo/Controller.js?_=1689624552855",
-    "/src/scenes/moving scenes demo/SceneA.js?_=1689624552856",
-    "/src/scenes/moving scenes demo/SceneB.js?_=1689624552857",
-    "/src/scenes/moving scenes demo/SceneC.js?_=1689624552858",
-    "/src/scenes/moving scenes demo/SceneD.js?_=1689624552859",
-    "/src/scenes/moving scenes demo/SceneE.js?_=1689624552860",
-    "/src/scenes/moving scenes demo/SceneF.js?_=1689624552861",
-    "/src/scenes/moving scenes demo/main.js?_=1689624552862",
+    "/src/scenes/moving scenes demo/Controller.js",
+    "/src/scenes/moving scenes demo/SceneA.js",
+    "/src/scenes/moving scenes demo/SceneB.js",
+    "/src/scenes/moving scenes demo/SceneC.js",
+    "/src/scenes/moving scenes demo/SceneD.js",
+    "/src/scenes/moving scenes demo/SceneE.js",
+    "/src/scenes/moving scenes demo/SceneF.js",
+    "/src/scenes/moving scenes demo/main.js",
     "/assets/tests/scenes/bg.jpg",
     "/assets/tests/scenes/space.png",
     "/assets/tests/scenes/space.json",
@@ -1925,9 +1919,7 @@
   ],
   "src/scenes/external scene/boot.json": [
     "/js/TweenMax.min.js",
-    "/js/boot.js",
-    "/src/scenes/external scene/boot.json",
-    "/src/scenes/external scene/Controller.js?_=1689624558867",
+    "/src/scenes/external scene/Controller.js",
     "/src/scenes/external scene/Demo.js"
   ],
   "src/scenes/extend scene from object.js": [
@@ -3516,10 +3508,8 @@
   ],
   "src/paths/_path editor/boot.json": [
     "/js/TweenMax.min.js",
-    "/js/boot.js",
-    "/src/paths/_path editor/boot.json",
-    "/src/paths/_path editor/Controller.js?_=1689625050146",
-    "/src/paths/_path editor/main.js?_=1689625050147"
+    "/src/paths/_path editor/Controller.js",
+    "/src/paths/_path editor/main.js"
   ],
   "src/math/vec2/subtract.js": [
     "/src/math/vec2/subtract.js"
@@ -4490,7 +4480,6 @@
     "/assets/sprites/mushroom2.png"
   ],
   "src/loader/loader events/destroy game during load.js": [
-    "/assets/sprites/mushroom.png",
     "/src/loader/loader events/destroy game during load.js"
   ],
   "src/loader/loader events/add files during load.js": [
@@ -6238,8 +6227,6 @@
   ],
   "src/games/tom/boot.json": [
     "/js/TweenMax.min.js",
-    "/js/boot.js",
-    "/src/games/tom/boot.json",
     "/src/games/tom//main.js",
     "/src/games/tom//Preloader.js",
     "/src/games/tom//Play.js",
@@ -6274,9 +6261,7 @@
     "/assets/audio/stacker/gamewon.ogg"
   ],
   "src/games/snowmen attack/boot.json": [
-    "/js/TweenMax.min.js",
-    "/js/boot.js",
-    "/src/games/snowmen attack/boot.json"
+    "/js/TweenMax.min.js"
   ],
   "src/games/snake/part7.js": [
     "/src/games/snake/part7.js",
@@ -6320,8 +6305,6 @@
   ],
   "src/games/sliding puzzle/boot.json": [
     "/js/TweenMax.min.js",
-    "/js/boot.js",
-    "/src/games/sliding puzzle/boot.json",
     "/src/games/sliding puzzle//main.js",
     "/src/games/sliding puzzle//Game.js",
     "/src/games/sliding puzzle//MainMenu.js",
@@ -6437,14 +6420,10 @@
     "/src/games/firstgame/part1.js"
   ],
   "src/games/emoji match/boot.json": [
-    "/js/TweenMax.min.js",
-    "/js/boot.js",
-    "/src/games/emoji match/boot.json"
+    "/js/TweenMax.min.js"
   ],
   "src/games/card memory/boot.json": [
     "/js/TweenMax.min.js",
-    "/js/boot.js",
-    "/src/games/card memory/boot.json",
     "/src/games/card memory//main.js",
     "/src/games/card memory//Preloader.js",
     "/src/games/card memory//Play.js",
@@ -6475,8 +6454,6 @@
   ],
   "src/games/bank panic/boot.json": [
     "/js/TweenMax.min.js",
-    "/js/boot.js",
-    "/src/games/bank panic/boot.json",
     "/src/games/bank panic//main.js",
     "/src/games/bank panic//Boot.js",
     "/src/games/bank panic//Preloader.js",
@@ -6503,9 +6480,7 @@
     "/assets/games/bank-panic/scream3.ogg"
   ],
   "src/games/avoid the germs/boot.json": [
-    "/js/TweenMax.min.js",
-    "/js/boot.js",
-    "/src/games/avoid the germs/boot.json"
+    "/js/TweenMax.min.js"
   ],
   "src/game objects/video/video transition.js": [
     "/src/game objects/video/video transition.js",
@@ -6547,9 +6522,11 @@
     "/assets/pics/purple-bars.jpg",
     "/assets/pics/commodore1084.png"
   ],
-  "src/game objects/video/play video.js": [],
-  "src/game objects/video/on complete event.js": [
+  "src/game objects/video/play video.js": [
     "/src/game objects/video/play video.js",
+    "/assets/video/spaceace.mp4"
+  ],
+  "src/game objects/video/on complete event.js": [
     "/src/game objects/video/on complete event.js",
     "/assets/video/endless-flight.mp4"
   ],
@@ -10180,15 +10157,13 @@
   ],
   "src/camera/multi camera/boot.json": [
     "/js/TweenMax.min.js",
-    "/js/boot.js",
-    "/src/camera/multi camera/boot.json",
-    "/src/camera/multi camera/Controller.js?_=1689626865755",
-    "/src/camera/multi camera/DemoA.js?_=1689626865756",
-    "/src/camera/multi camera/DemoB.js?_=1689626865757",
-    "/src/camera/multi camera/DemoC.js?_=1689626865758",
-    "/src/camera/multi camera/DemoD.js?_=1689626865759",
-    "/src/camera/multi camera/Obj3D.js?_=1689626865760",
-    "/src/camera/multi camera/game.js?_=1689626865761",
+    "/src/camera/multi camera/Controller.js",
+    "/src/camera/multi camera/DemoA.js",
+    "/src/camera/multi camera/DemoB.js",
+    "/src/camera/multi camera/DemoC.js",
+    "/src/camera/multi camera/DemoD.js",
+    "/src/camera/multi camera/Obj3D.js",
+    "/src/camera/multi camera/game.js",
     "/assets/tests/fruit/veg.png",
     "/assets/tests/fruit/veg.json",
     "/assets/sprites/mushroom2.png",
@@ -10560,8 +10535,8 @@
     "/assets/spine/3.8/coin/coin-pro.atlas",
     "/assets/spine/3.8/coin2/coin-pro.json",
     "/assets/spine/3.8/coin2/coin-pro.atlas",
-    "/assets/spine/3.8/coin2/coin-pro.png",
-    "/assets/spine/3.8/coin/coin-pro.png"
+    "/assets/spine/3.8/coin/coin-pro.png",
+    "/assets/spine/3.8/coin2/coin-pro.png"
   ],
   "src/bugs/6016 kill tweens nested.js": [
     "/src/bugs/6016 kill tweens nested.js",
