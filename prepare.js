@@ -1,3 +1,4 @@
+import { time } from "console";
 import { readFileSync, writeFileSync } from "fs";
 
 export const examplesPath = `${process.env.PHASER_PATH}/phaser3-examples`;
@@ -16,7 +17,10 @@ function processExampleDataItem(item) {
         if (item.children.find(c => c.name === "boot.json")) {
 
             console.log("\ta multi-scripts example detected, skip children");
-            examplesList.push(item.path + "/boot.json");
+
+            const file = (item.path + "/boot.json").replace(/\\/g, '/');
+
+            examplesList.push(file);
     
             return;
         }
@@ -28,8 +32,15 @@ function processExampleDataItem(item) {
 
     } else {
 
-        examplesList.push(item.path);
+        const file = item.path.replace(/\\/g, '/');
+
+        examplesList.push(file);
     }
+}
+
+function convertPath(windowsPath) {
+    
+    return windowsPath.replace(/^\\\\\?\\/,"").replace(/\\/g,'\/').replace(/\/\/+/g,'\/');
 }
 
 for(const item of examplesData.children) {
