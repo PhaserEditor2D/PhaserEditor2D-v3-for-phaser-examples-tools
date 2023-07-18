@@ -229,6 +229,11 @@
     "/src/tweens/eases/back graph.js",
     "/assets/tweens/background-crt.jpg"
   ],
+  "src/tweens/delay function.js": [
+    "/src/tweens/delay function.js",
+    "/assets/skies/sunset.png",
+    "/assets/sprites/ball-pink.png"
+  ],
   "src/tweens/counter tween.js": [
     "/src/tweens/counter tween.js",
     "/assets/skies/pixelsky.png",
@@ -300,6 +305,26 @@
     "/assets/skies/space3.png",
     "/assets/demoscene/ball-tlb.png"
   ],
+  "src/transform/_wip/scale update.js": [
+    "/src/transform/_wip/scale update.js",
+    "/assets/sprites/atari130xe.png",
+    "/assets/atlas/megaset-0.png",
+    "/assets/atlas/megaset-0.json"
+  ],
+  "src/transform/_wip/position update.js": [
+    "/src/transform/_wip/position update.js",
+    "/assets/sprites/atari130xe.png",
+    "/assets/atlas/megaset-0.png",
+    "/assets/atlas/megaset-0.json"
+  ],
+  "src/transform/_wip/ik test.js": [
+    "/src/transform/_wip/ik test.js",
+    "/assets/sprites/saw.png"
+  ],
+  "src/transform/_wip/has point.js": [
+    "/src/transform/_wip/has point.js",
+    "/assets/sprites/atari130xe.png"
+  ],
   "src/transform/scaleY.js": [
     "/src/transform/scaleY.js",
     "/assets/sprites/atari130xe.png"
@@ -356,26 +381,6 @@
     "/src/transform/display size.js",
     "/assets/pics/scrollframe.png",
     "/assets/pics/cougar-face-of-nature.png"
-  ],
-  "src/transform/archived/scale update.js": [
-    "/src/transform/archived/scale update.js",
-    "/assets/sprites/atari130xe.png",
-    "/assets/atlas/megaset-0.png",
-    "/assets/atlas/megaset-0.json"
-  ],
-  "src/transform/archived/position update.js": [
-    "/src/transform/archived/position update.js",
-    "/assets/sprites/atari130xe.png",
-    "/assets/atlas/megaset-0.png",
-    "/assets/atlas/megaset-0.json"
-  ],
-  "src/transform/archived/ik test.js": [
-    "/src/transform/archived/ik test.js",
-    "/assets/sprites/saw.png"
-  ],
-  "src/transform/archived/has point.js": [
-    "/src/transform/archived/has point.js",
-    "/assets/sprites/atari130xe.png"
   ],
   "src/transform/angle.js": [
     "/src/transform/angle.js",
@@ -1157,9 +1162,9 @@
     "/assets/spine/4.1/tank/tank-pro.json",
     "/assets/spine/4.1/tank/tank-pma.atlas",
     "/assets/spine/4.1/raptor/raptor-pma.png",
-    "/assets/spine/4.1/coin/coin-pma.png",
     "/assets/spine/4.1/vine/vine-pma.png",
-    "/assets/spine/4.1/tank/tank-pma.png"
+    "/assets/spine/4.1/tank/tank-pma.png",
+    "/assets/spine/4.1/coin/coin-pma.png"
   ],
   "src/spine4/webgl test 4.js": [
     "/src/spine4/webgl test 4.js",
@@ -1425,8 +1430,8 @@
     "/assets/spine/3.8/tank/tank-pro.atlas",
     "/assets/spine/3.8/raptor/raptor-pro.png",
     "/assets/spine/3.8/vine/vine-pro.png",
-    "/assets/spine/3.8/coin/coin-pro.png",
-    "/assets/spine/3.8/tank/tank-pro.png"
+    "/assets/spine/3.8/tank/tank-pro.png",
+    "/assets/spine/3.8/coin/coin-pro.png"
   ],
   "src/spine3/webgl test 4.js": [
     "/src/spine3/webgl test 4.js",
@@ -1770,15 +1775,7 @@
     "/assets/sprites/longarrow.png"
   ],
   "src/scenes/sub game demo/boot.json": [
-    "/js/TweenMax.min.js",
-    "/src/scenes/sub game demo/Preloader.js",
-    "/src/scenes/sub game demo/WorldMap.js",
-    "/src/scenes/sub game demo/SubGame.js",
-    "/src/scenes/sub game demo/main.js",
-    "/assets/tests/space/nebula.jpg",
-    "/assets/tests/space/ship.png",
-    "/assets/tests/space/space.png",
-    "/assets/tests/space/space.json"
+    "/js/TweenMax.min.js"
   ],
   "src/scenes/sleep and wake.js": [
     "/src/scenes/sleep and wake.js",
@@ -2014,6 +2011,10 @@
     "/src/scenes/add scene after game.js",
     "/assets/pics/bw-face.png"
   ],
+  "src/scalemanager/_fit hi-res.js": [
+    "/src/scalemanager/_fit hi-res.js",
+    "/assets/pics/akira.jpg"
+  ],
   "src/scalemanager/zoom with no scale.js": [
     "/src/scalemanager/zoom with no scale.js",
     "/assets/tests/zoom/title.png"
@@ -2132,10 +2133,6 @@
     "/src/scalemanager/envelop min max.js",
     "/assets/pics/zero-two.png"
   ],
-  "src/scalemanager/_fit hi-res.js": [
-    "/src/scalemanager/_fit hi-res.js",
-    "/assets/pics/akira.jpg"
-  ],
   "src/renderer/webgl info.js": [
     "/src/renderer/webgl info.js"
   ],
@@ -2161,6 +2158,11 @@
   ],
   "src/renderer/grayscale pipeline added locally.js": [
     "/src/renderer/grayscale pipeline added locally.js"
+  ],
+  "src/renderer/custom post fx pipeline.js": [
+    "/src/renderer/custom post fx pipeline.js",
+    "/assets/tests/pipeline/fish.png",
+    "/assets/tests/pipeline/flower.png"
   ],
   "src/renderer/custom pipeline single texture.js": [
     "/src/renderer/custom pipeline single texture.js",
@@ -2576,6 +2578,14 @@
     "/src/physics/matterjs/chain.js",
     "/assets/sprites/block.png",
     "/assets/sprites/shinyball.png"
+  ],
+  "src/physics/matterjs/bullet pool.js": [
+    "/src/physics/matterjs/bullet pool.js",
+    "/assets/sprites/thrust_ship.png",
+    "/assets/sprites/shmup-bullet.png",
+    "/assets/sprites/metalface78x92.png",
+    "/assets/atlas/asteroids.png",
+    "/assets/atlas/asteroids.png.meta"
   ],
   "src/physics/matterjs/bridge.js": [
     "/src/physics/matterjs/bridge.js"
@@ -3309,6 +3319,11 @@
     "/assets/tests/columns/gems.png",
     "/assets/tests/columns/gems.json"
   ],
+  "src/paths/_path editor/boot.json": [
+    "/js/TweenMax.min.js",
+    "/src/paths/_path editor/Controller.js",
+    "/src/paths/_path editor/main.js"
+  ],
   "src/paths/zig zag path.js": [
     "/src/paths/zig zag path.js",
     "/assets/sprites/shinyball.png"
@@ -3505,11 +3520,6 @@
   ],
   "src/paths/all types.js": [
     "/src/paths/all types.js"
-  ],
-  "src/paths/_path editor/boot.json": [
-    "/js/TweenMax.min.js",
-    "/src/paths/_path editor/Controller.js",
-    "/src/paths/_path editor/main.js"
   ],
   "src/math/vec2/subtract.js": [
     "/src/math/vec2/subtract.js"
@@ -4480,6 +4490,7 @@
     "/assets/sprites/mushroom2.png"
   ],
   "src/loader/loader events/destroy game during load.js": [
+    "/assets/sprites/mushroom.png",
     "/src/loader/loader events/destroy game during load.js"
   ],
   "src/loader/loader events/add files during load.js": [
@@ -5134,6 +5145,11 @@
     "/assets/input/e.png",
     "/assets/input/r.png"
   ],
+  "src/input/mouse/_pointer lock 3d rotate.js": [
+    "/src/input/mouse/_pointer lock 3d rotate.js",
+    "/assets/obj/pikachu.obj",
+    "/assets/sprites/cursor-rotate.png"
+  ],
   "src/input/mouse/triangle hit area.js": [
     "/src/input/mouse/triangle hit area.js",
     "/assets/sprites/thrust_ship2.png"
@@ -5243,11 +5259,6 @@
     "/assets/sprites/oz_pov_melting_disk.png",
     "/assets/sprites/palm-tree-left.png"
   ],
-  "src/input/mouse/_pointer lock 3d rotate.js": [
-    "/src/input/mouse/_pointer lock 3d rotate.js",
-    "/assets/obj/pikachu.obj",
-    "/assets/sprites/cursor-rotate.png"
-  ],
   "src/input/keyboard/text entry.js": [
     "/src/input/keyboard/text entry.js"
   ],
@@ -5346,6 +5357,14 @@
     "/assets/input/e.png",
     "/assets/input/r.png"
   ],
+  "src/input/gamepad/_twin stick shooter.js": [
+    "/src/input/gamepad/_twin stick shooter.js",
+    "/assets/tests/space/nebula.jpg",
+    "/assets/tests/space/space.png",
+    "/assets/tests/space/space.json",
+    "/assets/particles/explosion.png",
+    "/assets/particles/explosion.json"
+  ],
   "src/input/gamepad/select gamepad.js": [
     "/src/input/gamepad/select gamepad.js",
     "/assets/skies/lightblue.png",
@@ -5372,14 +5391,6 @@
     "/assets/skies/lightblue.png",
     "/assets/sprites/elephant.png"
   ],
-  "src/input/gamepad/_twin stick shooter.js": [
-    "/src/input/gamepad/_twin stick shooter.js",
-    "/assets/tests/space/nebula.jpg",
-    "/assets/tests/space/space.png",
-    "/assets/tests/space/space.json",
-    "/assets/particles/explosion.png",
-    "/assets/particles/explosion.json"
-  ],
   "src/input/game object/world game objects.js": [
     "/src/input/game object/world game objects.js",
     "/assets/pics/lance-overdose-loader-eye.png"
@@ -5403,6 +5414,12 @@
   "src/input/game object/sprite example.js": [
     "/src/input/game object/sprite example.js",
     "/assets/sprites/bsquadron-enemies.png"
+  ],
+  "src/input/game object/select and deselect.js": [
+    "/src/input/game object/select and deselect.js",
+    "/assets/skies/darkstone.png",
+    "/assets/ui/dark-ui.png",
+    "/assets/ui/dark-ui.json"
   ],
   "src/input/game object/over and out events.js": [
     "/src/input/game object/over and out events.js",
@@ -6263,6 +6280,11 @@
   "src/games/snowmen attack/boot.json": [
     "/js/TweenMax.min.js"
   ],
+  "src/games/snake/_part8.js": [
+    "/src/games/snake/_part8.js",
+    "/assets/games/snake/food.png",
+    "/assets/games/snake/body.png"
+  ],
   "src/games/snake/part7.js": [
     "/src/games/snake/part7.js",
     "/assets/games/snake/food.png",
@@ -6295,11 +6317,6 @@
   ],
   "src/games/snake/part1.js": [
     "/src/games/snake/part1.js",
-    "/assets/games/snake/food.png",
-    "/assets/games/snake/body.png"
-  ],
-  "src/games/snake/_part8.js": [
-    "/src/games/snake/_part8.js",
     "/assets/games/snake/food.png",
     "/assets/games/snake/body.png"
   ],
@@ -6523,8 +6540,7 @@
     "/assets/pics/commodore1084.png"
   ],
   "src/game objects/video/play video.js": [
-    "/src/game objects/video/play video.js",
-    "/assets/video/spaceace.mp4"
+    "/src/game objects/video/play video.js"
   ],
   "src/game objects/video/on complete event.js": [
     "/src/game objects/video/on complete event.js",
@@ -6663,6 +6679,9 @@
     "/src/game objects/text/speech bubble.js",
     "/assets/pics/akira.jpg"
   ],
+  "src/game objects/text/simple text button.js": [
+    "/src/game objects/text/simple text button.js"
+  ],
   "src/game objects/text/shadow stroke styles.js": [
     "/src/game objects/text/shadow stroke styles.js",
     "/assets/pics/shocktroopers-lulu2.png"
@@ -6699,7 +6718,9 @@
     "/src/game objects/text/emojis.js"
   ],
   "src/game objects/text/custom webfont.js": [
-    "/src/game objects/text/custom webfont.js"
+    "/src/game objects/text/custom webfont.js",
+    "/assets/fonts/ttf/troika.otf",
+    "/assets/fonts/ttf/caroni.otf"
   ],
   "src/game objects/text/create from config.js": [
     "/src/game objects/text/create from config.js"
@@ -6794,7 +6815,8 @@
     "/assets/skies/background1.png"
   ],
   "src/game objects/shapes/stacker.js": [
-    "/src/game objects/shapes/stacker.js"
+    "/src/game objects/shapes/stacker.js",
+    "/assets/fonts/ttf/bebas.ttf"
   ],
   "src/game objects/shapes/stacker es6.js": [
     "/src/game objects/shapes/stacker es6.js",
@@ -6803,7 +6825,8 @@
     "/assets/audio/stacker/place.ogg",
     "/assets/audio/stacker/miss.ogg",
     "/assets/audio/stacker/gamelost.ogg",
-    "/assets/audio/stacker/gamewon.ogg"
+    "/assets/audio/stacker/gamewon.ogg",
+    "/assets/fonts/ttf/bebas.ttf"
   ],
   "src/game objects/shapes/spline.js": [
     "/src/game objects/shapes/spline.js"
@@ -7004,6 +7027,31 @@
     "/src/game objects/rope/animated rope.js",
     "/assets/rope/background-grave.png",
     "/assets/rope/skeleton.png"
+  ],
+  "src/game objects/render texture/_wip/sparks.js": [
+    "/src/game objects/render texture/_wip/sparks.js",
+    "/assets/sprites/phaser-dude.png"
+  ],
+  "src/game objects/render texture/_wip/nine slice frame.js": [
+    "/src/game objects/render texture/_wip/nine slice frame.js",
+    "/assets/tests/9slice/topLeft.png",
+    "/assets/tests/9slice/top.png",
+    "/assets/tests/9slice/topRight.png",
+    "/assets/tests/9slice/botLeft.png",
+    "/assets/tests/9slice/bot.png",
+    "/assets/tests/9slice/botRight.png",
+    "/assets/tests/9slice/left.png",
+    "/assets/tests/9slice/right.png"
+  ],
+  "src/game objects/render texture/_wip/fireball.js": [
+    "/src/game objects/render texture/_wip/fireball.js",
+    "/assets/sprites/phaser-dude.png",
+    "/assets/particles/muzzleflash3.png"
+  ],
+  "src/game objects/render texture/_wip/explosion.js": [
+    "/src/game objects/render texture/_wip/explosion.js",
+    "/assets/particles/muzzleflash3.png",
+    "/assets/particles/smoke-puff.png"
   ],
   "src/game objects/render texture/transform draw.js": [
     "/src/game objects/render texture/transform draw.js",
@@ -7226,31 +7274,6 @@
     "/assets/atlas/megaset-0.json",
     "/assets/pics/uv-grid-diag.png"
   ],
-  "src/game objects/render texture/_wip/sparks.js": [
-    "/src/game objects/render texture/_wip/sparks.js",
-    "/assets/sprites/phaser-dude.png"
-  ],
-  "src/game objects/render texture/_wip/nine slice frame.js": [
-    "/src/game objects/render texture/_wip/nine slice frame.js",
-    "/assets/tests/9slice/topLeft.png",
-    "/assets/tests/9slice/top.png",
-    "/assets/tests/9slice/topRight.png",
-    "/assets/tests/9slice/botLeft.png",
-    "/assets/tests/9slice/bot.png",
-    "/assets/tests/9slice/botRight.png",
-    "/assets/tests/9slice/left.png",
-    "/assets/tests/9slice/right.png"
-  ],
-  "src/game objects/render texture/_wip/fireball.js": [
-    "/src/game objects/render texture/_wip/fireball.js",
-    "/assets/sprites/phaser-dude.png",
-    "/assets/particles/muzzleflash3.png"
-  ],
-  "src/game objects/render texture/_wip/explosion.js": [
-    "/src/game objects/render texture/_wip/explosion.js",
-    "/assets/particles/muzzleflash3.png",
-    "/assets/particles/smoke-puff.png"
-  ],
   "src/game objects/plane/walls.js": [
     "/src/game objects/plane/walls.js",
     "/assets/tests/dungeon-perspective.jpg",
@@ -7315,247 +7338,6 @@
     "/assets/audio/raisins.m4a",
     "/assets/animations/california-raisins.png",
     "/assets/animations/california-raisins.json"
-  ],
-  "src/game objects/particle emitter/view bounds.js": [
-    "/src/game objects/particle emitter/view bounds.js",
-    "/assets/particles/bubbles.png",
-    "/assets/particles/bubbles.json"
-  ],
-  "src/game objects/particle emitter/tween xy.js": [
-    "/src/game objects/particle emitter/tween xy.js",
-    "/assets/tweens/sky.png",
-    "/assets/atlas/match3.png",
-    "/assets/atlas/match3.json"
-  ],
-  "src/game objects/particle emitter/tween speed.js": [
-    "/src/game objects/particle emitter/tween speed.js",
-    "/assets/tweens/sky.png",
-    "/assets/atlas/match3.png",
-    "/assets/atlas/match3.json"
-  ],
-  "src/game objects/particle emitter/tween speed y.js": [
-    "/src/game objects/particle emitter/tween speed y.js",
-    "/assets/tweens/sky.png",
-    "/assets/atlas/match3.png",
-    "/assets/atlas/match3.json"
-  ],
-  "src/game objects/particle emitter/tween speed x.js": [
-    "/src/game objects/particle emitter/tween speed x.js",
-    "/assets/tweens/sky.png",
-    "/assets/atlas/match3.png",
-    "/assets/atlas/match3.json"
-  ],
-  "src/game objects/particle emitter/tween alpha.js": [
-    "/src/game objects/particle emitter/tween alpha.js",
-    "/assets/tweens/sky.png",
-    "/assets/atlas/match3.png",
-    "/assets/atlas/match3.json"
-  ],
-  "src/game objects/particle emitter/stop after.js": [
-    "/src/game objects/particle emitter/stop after.js",
-    "/assets/tweens/sky.png",
-    "/assets/atlas/match3.png",
-    "/assets/atlas/match3.json"
-  ],
-  "src/game objects/particle emitter/stepped emitter.js": [
-    "/src/game objects/particle emitter/stepped emitter.js",
-    "/assets/tweens/sky.png",
-    "/assets/atlas/match3.png",
-    "/assets/atlas/match3.json"
-  ],
-  "src/game objects/particle emitter/stepped emitter with yoyo.js": [
-    "/src/game objects/particle emitter/stepped emitter with yoyo.js",
-    "/assets/tweens/sky.png",
-    "/assets/atlas/match3.png",
-    "/assets/atlas/match3.json"
-  ],
-  "src/game objects/particle emitter/start end.js": [
-    "/src/game objects/particle emitter/start end.js",
-    "/assets/tweens/sky.png",
-    "/assets/atlas/match3.png",
-    "/assets/atlas/match3.json"
-  ],
-  "src/game objects/particle emitter/start end random.js": [
-    "/src/game objects/particle emitter/start end random.js",
-    "/assets/normal-maps/stones.png",
-    "/assets/normal-maps/gem2.png"
-  ],
-  "src/game objects/particle emitter/start end ease.js": [
-    "/src/game objects/particle emitter/start end ease.js",
-    "/assets/particles/racetrack-bend.png",
-    "/assets/sprites/car-red.png"
-  ],
-  "src/game objects/particle emitter/sort order.js": [
-    "/src/game objects/particle emitter/sort order.js",
-    "/assets/sprites/blocks.png",
-    "/assets/sprites/blocks.json"
-  ],
-  "src/game objects/particle emitter/set emitter zone.js": [
-    "/src/game objects/particle emitter/set emitter zone.js",
-    "/assets/skies/darkstone.png",
-    "/assets/particles/white-flare.png",
-    "/assets/pics/card1.png",
-    "/assets/pics/card3.png"
-  ],
-  "src/game objects/particle emitter/set emitter zone by instance.js": [
-    "/src/game objects/particle emitter/set emitter zone by instance.js",
-    "/assets/skies/darkstone.png",
-    "/assets/particles/white-flare.png",
-    "/assets/pics/card3.png",
-    "/assets/pics/card2.png"
-  ],
-  "src/game objects/particle emitter/random tint.js": [
-    "/src/game objects/particle emitter/random tint.js",
-    "/assets/sprites/brush1.png"
-  ],
-  "src/game objects/particle emitter/random object.js": [
-    "/src/game objects/particle emitter/random object.js",
-    "/assets/skies/darkstone.png",
-    "/assets/particles/platform.png",
-    "/assets/particles/slime.png"
-  ],
-  "src/game objects/particle emitter/random array.js": [
-    "/src/game objects/particle emitter/random array.js",
-    "/assets/skies/darkstone.png",
-    "/assets/particles/platform.png",
-    "/assets/particles/pipe.png",
-    "/assets/particles/slime.png"
-  ],
-  "src/game objects/particle emitter/particle physics body overlap.js": [
-    "/src/game objects/particle emitter/particle physics body overlap.js",
-    "/assets/skies/space3.png",
-    "/assets/sprites/bullets/bullet7.png",
-    "/assets/sprites/bsquadron1.png",
-    "/assets/particles/bubbles.png",
-    "/assets/particles/bubbles.json"
-  ],
-  "src/game objects/particle emitter/particle overlap.js": [
-    "/src/game objects/particle emitter/particle overlap.js",
-    "/assets/particles/bubbles.png",
-    "/assets/particles/bubbles.json"
-  ],
-  "src/game objects/particle emitter/particle bounds.js": [
-    "/src/game objects/particle emitter/particle bounds.js",
-    "/assets/particles/flares.png",
-    "/assets/particles/flares.json"
-  ],
-  "src/game objects/particle emitter/onEmit and onUpdate.js": [
-    "/src/game objects/particle emitter/onEmit and onUpdate.js",
-    "/assets/tweens/sky.png",
-    "/assets/atlas/match3.png",
-    "/assets/atlas/match3.json"
-  ],
-  "src/game objects/particle emitter/multiple death zones.js": [
-    "/src/game objects/particle emitter/multiple death zones.js",
-    "/assets/particles/flares.png",
-    "/assets/particles/flares.json"
-  ],
-  "src/game objects/particle emitter/move to.js": [
-    "/src/game objects/particle emitter/move to.js",
-    "/assets/skies/gradient26.png",
-    "/assets/demoscene/green_ball.png"
-  ],
-  "src/game objects/particle emitter/move to dynamic.js": [
-    "/src/game objects/particle emitter/move to dynamic.js",
-    "/assets/skies/gradient26.png",
-    "/assets/demoscene/green_ball.png"
-  ],
-  "src/game objects/particle emitter/min max.js": [
-    "/src/game objects/particle emitter/min max.js",
-    "/assets/skies/sky2.png",
-    "/assets/sprites/rain.png"
-  ],
-  "src/game objects/particle emitter/interpolation ease.js": [
-    "/src/game objects/particle emitter/interpolation ease.js",
-    "/assets/particles/red.png",
-    "/assets/particles/green.png",
-    "/assets/particles/blue.png"
-  ],
-  "src/game objects/particle emitter/hold particle.js": [
-    "/src/game objects/particle emitter/hold particle.js",
-    "/assets/skies/gradient26.png",
-    "/assets/demoscene/green_ball.png",
-    "/assets/particles/platform.png"
-  ],
-  "src/game objects/particle emitter/gravity processor.js": [
-    "/src/game objects/particle emitter/gravity processor.js",
-    "/assets/skies/darkstone.png",
-    "/assets/particles/elec3.png"
-  ],
-  "src/game objects/particle emitter/get particle bounds.js": [
-    "/src/game objects/particle emitter/get particle bounds.js",
-    "/assets/atlas/jellies.png",
-    "/assets/atlas/jellies.json"
-  ],
-  "src/game objects/particle emitter/get emitter bounds.js": [
-    "/src/game objects/particle emitter/get emitter bounds.js",
-    "/assets/particles/bubbles.png",
-    "/assets/particles/bubbles.json"
-  ],
-  "src/game objects/particle emitter/fire effects.js": [
-    "/src/game objects/particle emitter/fire effects.js",
-    "/assets/particles/flares.png",
-    "/assets/particles/flares.json"
-  ],
-  "src/game objects/particle emitter/explode emitter.js": [
-    "/src/game objects/particle emitter/explode emitter.js",
-    "/assets/particles/flares.png",
-    "/assets/particles/flares.json"
-  ],
-  "src/game objects/particle emitter/emitter zone total.js": [
-    "/src/game objects/particle emitter/emitter zone total.js",
-    "/assets/skies/darkstone.png",
-    "/assets/particles/flares.png",
-    "/assets/particles/flares.json"
-  ],
-  "src/game objects/particle emitter/emitter events.js": [
-    "/src/game objects/particle emitter/emitter events.js",
-    "/assets/skies/darkstone.png",
-    "/assets/particles/white-flare.png",
-    "/assets/pics/card3.png"
-  ],
-  "src/game objects/particle emitter/emitter duration.js": [
-    "/src/game objects/particle emitter/emitter duration.js",
-    "/assets/skies/darkstone.png",
-    "/assets/particles/white-flare.png",
-    "/assets/pics/card3.png"
-  ],
-  "src/game objects/particle emitter/emitter alpha.js": [
-    "/src/game objects/particle emitter/emitter alpha.js",
-    "/assets/pics/checker.png",
-    "/assets/atlas/match3.png",
-    "/assets/atlas/match3.json"
-  ],
-  "src/game objects/particle emitter/emit at pointer.js": [
-    "/src/game objects/particle emitter/emit at pointer.js",
-    "/assets/tweens/sky.png",
-    "/assets/atlas/match3.png",
-    "/assets/atlas/match3.json"
-  ],
-  "src/game objects/particle emitter/direct value.js": [
-    "/src/game objects/particle emitter/direct value.js",
-    "/assets/demoscene/star3.png"
-  ],
-  "src/game objects/particle emitter/custom callback.js": [
-    "/src/game objects/particle emitter/custom callback.js",
-    "/assets/tweens/sky.png",
-    "/assets/atlas/match3.png",
-    "/assets/atlas/match3.json"
-  ],
-  "src/game objects/particle emitter/change emitter tint.js": [
-    "/src/game objects/particle emitter/change emitter tint.js",
-    "/assets/sprites/brush2.png"
-  ],
-  "src/game objects/particle emitter/bring to top.js": [
-    "/src/game objects/particle emitter/bring to top.js",
-    "/assets/sprites/blocks.png",
-    "/assets/sprites/blocks.json"
-  ],
-  "src/game objects/particle emitter/add emit zone.js": [
-    "/src/game objects/particle emitter/add emit zone.js",
-    "/assets/skies/darkstone.png",
-    "/assets/particles/flares.png",
-    "/assets/particles/flares.json"
   ],
   "src/game objects/particle emitter/_wip/y position range.js": [
     "/src/game objects/particle emitter/_wip/y position range.js",
@@ -7858,6 +7640,12 @@
     "/src/game objects/particle emitter/_wip/create emitter.js",
     "/assets/particles/blue.png"
   ],
+  "src/game objects/particle emitter/_wip/create emitter from JSON.js": [
+    "/src/game objects/particle emitter/_wip/create emitter from JSON.js",
+    "/assets/particles/flares.png",
+    "/assets/particles/flares.json",
+    "/assets/particles/emitter.json"
+  ],
   "src/game objects/particle emitter/_wip/create emitter from config.js": [
     "/src/game objects/particle emitter/_wip/create emitter from config.js",
     "/assets/particles/flares.png",
@@ -7881,12 +7669,6 @@
   "src/game objects/particle emitter/_wip/create emitter from config 2.js": [
     "/src/game objects/particle emitter/_wip/create emitter from config 2.js",
     "/assets/particles/blue.png"
-  ],
-  "src/game objects/particle emitter/_wip/create emitter from JSON.js": [
-    "/src/game objects/particle emitter/_wip/create emitter from JSON.js",
-    "/assets/particles/flares.png",
-    "/assets/particles/flares.json",
-    "/assets/particles/emitter.json"
   ],
   "src/game objects/particle emitter/_wip/collide emitter bounds sides.js": [
     "/src/game objects/particle emitter/_wip/collide emitter bounds sides.js",
@@ -7930,6 +7712,253 @@
     "/assets/particles/flares.png",
     "/assets/particles/flares.json"
   ],
+  "src/game objects/particle emitter/view bounds.js": [
+    "/src/game objects/particle emitter/view bounds.js",
+    "/assets/particles/bubbles.png",
+    "/assets/particles/bubbles.json"
+  ],
+  "src/game objects/particle emitter/tween xy.js": [
+    "/src/game objects/particle emitter/tween xy.js",
+    "/assets/tweens/sky.png",
+    "/assets/atlas/match3.png",
+    "/assets/atlas/match3.json"
+  ],
+  "src/game objects/particle emitter/tween speed.js": [
+    "/src/game objects/particle emitter/tween speed.js",
+    "/assets/tweens/sky.png",
+    "/assets/atlas/match3.png",
+    "/assets/atlas/match3.json"
+  ],
+  "src/game objects/particle emitter/tween speed y.js": [
+    "/src/game objects/particle emitter/tween speed y.js",
+    "/assets/tweens/sky.png",
+    "/assets/atlas/match3.png",
+    "/assets/atlas/match3.json"
+  ],
+  "src/game objects/particle emitter/tween speed x.js": [
+    "/src/game objects/particle emitter/tween speed x.js",
+    "/assets/tweens/sky.png",
+    "/assets/atlas/match3.png",
+    "/assets/atlas/match3.json"
+  ],
+  "src/game objects/particle emitter/tween alpha.js": [
+    "/src/game objects/particle emitter/tween alpha.js",
+    "/assets/tweens/sky.png",
+    "/assets/atlas/match3.png",
+    "/assets/atlas/match3.json"
+  ],
+  "src/game objects/particle emitter/stop after.js": [
+    "/src/game objects/particle emitter/stop after.js",
+    "/assets/tweens/sky.png",
+    "/assets/atlas/match3.png",
+    "/assets/atlas/match3.json"
+  ],
+  "src/game objects/particle emitter/stepped emitter.js": [
+    "/src/game objects/particle emitter/stepped emitter.js",
+    "/assets/tweens/sky.png",
+    "/assets/atlas/match3.png",
+    "/assets/atlas/match3.json"
+  ],
+  "src/game objects/particle emitter/stepped emitter with yoyo.js": [
+    "/src/game objects/particle emitter/stepped emitter with yoyo.js",
+    "/assets/tweens/sky.png",
+    "/assets/atlas/match3.png",
+    "/assets/atlas/match3.json"
+  ],
+  "src/game objects/particle emitter/start end.js": [
+    "/src/game objects/particle emitter/start end.js",
+    "/assets/tweens/sky.png",
+    "/assets/atlas/match3.png",
+    "/assets/atlas/match3.json"
+  ],
+  "src/game objects/particle emitter/start end random.js": [
+    "/src/game objects/particle emitter/start end random.js",
+    "/assets/normal-maps/stones.png",
+    "/assets/normal-maps/gem2.png"
+  ],
+  "src/game objects/particle emitter/start end ease.js": [
+    "/src/game objects/particle emitter/start end ease.js",
+    "/assets/particles/racetrack-bend.png",
+    "/assets/sprites/car-red.png"
+  ],
+  "src/game objects/particle emitter/sort order.js": [
+    "/src/game objects/particle emitter/sort order.js",
+    "/assets/sprites/blocks.png",
+    "/assets/sprites/blocks.json"
+  ],
+  "src/game objects/particle emitter/set emitter zone.js": [
+    "/src/game objects/particle emitter/set emitter zone.js",
+    "/assets/skies/darkstone.png",
+    "/assets/particles/white-flare.png",
+    "/assets/pics/card1.png",
+    "/assets/pics/card3.png"
+  ],
+  "src/game objects/particle emitter/set emitter zone by instance.js": [
+    "/src/game objects/particle emitter/set emitter zone by instance.js",
+    "/assets/skies/darkstone.png",
+    "/assets/particles/white-flare.png",
+    "/assets/pics/card3.png",
+    "/assets/pics/card2.png"
+  ],
+  "src/game objects/particle emitter/random tint.js": [
+    "/src/game objects/particle emitter/random tint.js",
+    "/assets/sprites/brush1.png"
+  ],
+  "src/game objects/particle emitter/random object.js": [
+    "/src/game objects/particle emitter/random object.js",
+    "/assets/skies/darkstone.png",
+    "/assets/particles/platform.png",
+    "/assets/particles/slime.png"
+  ],
+  "src/game objects/particle emitter/random array.js": [
+    "/src/game objects/particle emitter/random array.js",
+    "/assets/skies/darkstone.png",
+    "/assets/particles/platform.png",
+    "/assets/particles/pipe.png",
+    "/assets/particles/slime.png"
+  ],
+  "src/game objects/particle emitter/particle physics body overlap.js": [
+    "/src/game objects/particle emitter/particle physics body overlap.js",
+    "/assets/skies/space3.png",
+    "/assets/sprites/bullets/bullet7.png",
+    "/assets/sprites/bsquadron1.png",
+    "/assets/particles/bubbles.png",
+    "/assets/particles/bubbles.json"
+  ],
+  "src/game objects/particle emitter/particle overlap.js": [
+    "/src/game objects/particle emitter/particle overlap.js",
+    "/assets/particles/bubbles.png",
+    "/assets/particles/bubbles.json"
+  ],
+  "src/game objects/particle emitter/particle bounds.js": [
+    "/src/game objects/particle emitter/particle bounds.js",
+    "/assets/particles/flares.png",
+    "/assets/particles/flares.json"
+  ],
+  "src/game objects/particle emitter/onEmit and onUpdate.js": [
+    "/src/game objects/particle emitter/onEmit and onUpdate.js",
+    "/assets/tweens/sky.png",
+    "/assets/atlas/match3.png",
+    "/assets/atlas/match3.json"
+  ],
+  "src/game objects/particle emitter/multiple death zones.js": [
+    "/src/game objects/particle emitter/multiple death zones.js",
+    "/assets/particles/flares.png",
+    "/assets/particles/flares.json"
+  ],
+  "src/game objects/particle emitter/move to.js": [
+    "/src/game objects/particle emitter/move to.js",
+    "/assets/skies/gradient26.png",
+    "/assets/demoscene/green_ball.png"
+  ],
+  "src/game objects/particle emitter/move to dynamic.js": [
+    "/src/game objects/particle emitter/move to dynamic.js",
+    "/assets/skies/gradient26.png",
+    "/assets/demoscene/green_ball.png"
+  ],
+  "src/game objects/particle emitter/min max.js": [
+    "/src/game objects/particle emitter/min max.js",
+    "/assets/skies/sky2.png",
+    "/assets/sprites/rain.png"
+  ],
+  "src/game objects/particle emitter/interpolation ease.js": [
+    "/src/game objects/particle emitter/interpolation ease.js",
+    "/assets/particles/red.png",
+    "/assets/particles/green.png",
+    "/assets/particles/blue.png"
+  ],
+  "src/game objects/particle emitter/hold particle.js": [
+    "/src/game objects/particle emitter/hold particle.js",
+    "/assets/skies/gradient26.png",
+    "/assets/demoscene/green_ball.png",
+    "/assets/particles/platform.png"
+  ],
+  "src/game objects/particle emitter/gravity processor.js": [
+    "/src/game objects/particle emitter/gravity processor.js",
+    "/assets/skies/darkstone.png",
+    "/assets/particles/elec3.png"
+  ],
+  "src/game objects/particle emitter/get particle bounds.js": [
+    "/src/game objects/particle emitter/get particle bounds.js",
+    "/assets/atlas/jellies.png",
+    "/assets/atlas/jellies.json"
+  ],
+  "src/game objects/particle emitter/get emitter bounds.js": [
+    "/src/game objects/particle emitter/get emitter bounds.js",
+    "/assets/particles/bubbles.png",
+    "/assets/particles/bubbles.json"
+  ],
+  "src/game objects/particle emitter/fire effects.js": [
+    "/src/game objects/particle emitter/fire effects.js",
+    "/assets/particles/flares.png",
+    "/assets/particles/flares.json"
+  ],
+  "src/game objects/particle emitter/explode emitter.js": [
+    "/src/game objects/particle emitter/explode emitter.js",
+    "/assets/particles/flares.png",
+    "/assets/particles/flares.json"
+  ],
+  "src/game objects/particle emitter/emitter zone total.js": [
+    "/src/game objects/particle emitter/emitter zone total.js",
+    "/assets/skies/darkstone.png",
+    "/assets/particles/flares.png",
+    "/assets/particles/flares.json"
+  ],
+  "src/game objects/particle emitter/emitter events.js": [
+    "/src/game objects/particle emitter/emitter events.js",
+    "/assets/skies/darkstone.png",
+    "/assets/particles/white-flare.png",
+    "/assets/pics/card3.png"
+  ],
+  "src/game objects/particle emitter/emitter duration.js": [
+    "/src/game objects/particle emitter/emitter duration.js",
+    "/assets/skies/darkstone.png",
+    "/assets/particles/white-flare.png",
+    "/assets/pics/card3.png"
+  ],
+  "src/game objects/particle emitter/emitter alpha.js": [
+    "/src/game objects/particle emitter/emitter alpha.js",
+    "/assets/pics/checker.png",
+    "/assets/atlas/match3.png",
+    "/assets/atlas/match3.json"
+  ],
+  "src/game objects/particle emitter/emit zone loop.js": [
+    "/src/game objects/particle emitter/emit zone loop.js",
+    "/assets/skies/darkstone.png",
+    "/assets/particles/flares.png",
+    "/assets/particles/flares.json"
+  ],
+  "src/game objects/particle emitter/emit at pointer.js": [
+    "/src/game objects/particle emitter/emit at pointer.js",
+    "/assets/tweens/sky.png",
+    "/assets/atlas/match3.png",
+    "/assets/atlas/match3.json"
+  ],
+  "src/game objects/particle emitter/direct value.js": [
+    "/src/game objects/particle emitter/direct value.js",
+    "/assets/demoscene/star3.png"
+  ],
+  "src/game objects/particle emitter/custom callback.js": [
+    "/src/game objects/particle emitter/custom callback.js",
+    "/assets/tweens/sky.png",
+    "/assets/atlas/match3.png",
+    "/assets/atlas/match3.json"
+  ],
+  "src/game objects/particle emitter/change emitter tint.js": [
+    "/src/game objects/particle emitter/change emitter tint.js",
+    "/assets/sprites/brush2.png"
+  ],
+  "src/game objects/particle emitter/bring to top.js": [
+    "/src/game objects/particle emitter/bring to top.js",
+    "/assets/sprites/blocks.png",
+    "/assets/sprites/blocks.json"
+  ],
+  "src/game objects/particle emitter/add emit zone.js": [
+    "/src/game objects/particle emitter/add emit zone.js",
+    "/assets/skies/darkstone.png",
+    "/assets/particles/flares.png",
+    "/assets/particles/flares.json"
+  ],
   "src/game objects/nine slice/stress test.js": [
     "/src/game objects/nine slice/stress test.js",
     "/assets/ui/nine-slice.png",
@@ -7959,53 +7988,6 @@
     "/src/game objects/nine slice/3 slice button.js",
     "/assets/ui/nine-slice.png",
     "/assets/ui/nine-slice.json"
-  ],
-  "src/game objects/mesh/race track.js": [
-    "/src/game objects/mesh/race track.js",
-    "/assets/obj/racing/roadStartPositions.obj",
-    "/assets/obj/racing/roadStartPositions.mtl",
-    "/assets/obj/racing/roadEnd.obj",
-    "/assets/obj/racing/roadEnd.mtl",
-    "/assets/obj/racing/roadCrossing.obj",
-    "/assets/obj/racing/roadCrossing.mtl",
-    "/assets/obj/racing/roadCurved.obj",
-    "/assets/obj/racing/roadCurved.mtl",
-    "/assets/obj/racing/roadStraight.obj",
-    "/assets/obj/racing/roadStraight.mtl",
-    "/assets/obj/racing/roadStraightLong.obj",
-    "/assets/obj/racing/roadStraightLong.mtl",
-    "/assets/obj/racing/roadStraightArrow.obj",
-    "/assets/obj/racing/roadStraightArrow.mtl",
-    "/assets/obj/racing/roadSplitLarge.obj",
-    "/assets/obj/racing/roadSplitLarge.mtl",
-    "/assets/obj/racing/roadCornerLarge.obj",
-    "/assets/obj/racing/roadCornerLarge.mtl",
-    "/assets/obj/racing/roadCornerLargeBorder.obj",
-    "/assets/obj/racing/roadCornerLargeBorder.mtl",
-    "/assets/obj/racing/roadCornerLargeBorderInner.obj",
-    "/assets/obj/racing/roadCornerLargeBorderInner.mtl"
-  ],
-  "src/game objects/mesh/mesh input.js": [
-    "/src/game objects/mesh/mesh input.js",
-    "/assets/skies/wtf.png",
-    "/assets/obj/skull.obj",
-    "/assets/obj/powerups.png"
-  ],
-  "src/game objects/mesh/mesh from obj.js": [
-    "/src/game objects/mesh/mesh from obj.js",
-    "/assets/skies/wtf.png",
-    "/assets/obj/skull.obj",
-    "/assets/obj/powerups.png"
-  ],
-  "src/game objects/mesh/mesh from generate grid.js": [
-    "/src/game objects/mesh/mesh from generate grid.js",
-    "/assets/skies/gradient13.png",
-    "/assets/pics/ayu.png"
-  ],
-  "src/game objects/mesh/mesh from array.js": [
-    "/src/game objects/mesh/mesh from array.js",
-    "/assets/skies/gradient13.png",
-    "/assets/pics/ayu.png"
   ],
   "src/game objects/mesh/_wip/mesh tree.js": [
     "/src/game objects/mesh/_wip/mesh tree.js",
@@ -8054,6 +8036,53 @@
   "src/game objects/mesh/_wip/draw mesh.js": [
     "/src/game objects/mesh/_wip/draw mesh.js",
     "/assets/text/phaser-logo-3d.obj"
+  ],
+  "src/game objects/mesh/race track.js": [
+    "/src/game objects/mesh/race track.js",
+    "/assets/obj/racing/roadStartPositions.obj",
+    "/assets/obj/racing/roadStartPositions.mtl",
+    "/assets/obj/racing/roadEnd.obj",
+    "/assets/obj/racing/roadEnd.mtl",
+    "/assets/obj/racing/roadCrossing.obj",
+    "/assets/obj/racing/roadCrossing.mtl",
+    "/assets/obj/racing/roadCurved.obj",
+    "/assets/obj/racing/roadCurved.mtl",
+    "/assets/obj/racing/roadStraight.obj",
+    "/assets/obj/racing/roadStraight.mtl",
+    "/assets/obj/racing/roadStraightLong.obj",
+    "/assets/obj/racing/roadStraightLong.mtl",
+    "/assets/obj/racing/roadStraightArrow.obj",
+    "/assets/obj/racing/roadStraightArrow.mtl",
+    "/assets/obj/racing/roadSplitLarge.obj",
+    "/assets/obj/racing/roadSplitLarge.mtl",
+    "/assets/obj/racing/roadCornerLarge.obj",
+    "/assets/obj/racing/roadCornerLarge.mtl",
+    "/assets/obj/racing/roadCornerLargeBorder.obj",
+    "/assets/obj/racing/roadCornerLargeBorder.mtl",
+    "/assets/obj/racing/roadCornerLargeBorderInner.obj",
+    "/assets/obj/racing/roadCornerLargeBorderInner.mtl"
+  ],
+  "src/game objects/mesh/mesh input.js": [
+    "/src/game objects/mesh/mesh input.js",
+    "/assets/skies/wtf.png",
+    "/assets/obj/skull.obj",
+    "/assets/obj/powerups.png"
+  ],
+  "src/game objects/mesh/mesh from obj.js": [
+    "/src/game objects/mesh/mesh from obj.js",
+    "/assets/skies/wtf.png",
+    "/assets/obj/skull.obj",
+    "/assets/obj/powerups.png"
+  ],
+  "src/game objects/mesh/mesh from generate grid.js": [
+    "/src/game objects/mesh/mesh from generate grid.js",
+    "/assets/skies/gradient13.png",
+    "/assets/pics/ayu.png"
+  ],
+  "src/game objects/mesh/mesh from array.js": [
+    "/src/game objects/mesh/mesh from array.js",
+    "/assets/skies/gradient13.png",
+    "/assets/pics/ayu.png"
   ],
   "src/game objects/lights/zoom point light.js": [
     "/src/game objects/lights/zoom point light.js",
@@ -8377,6 +8406,59 @@
     "/src/game objects/group/create child.js",
     "/assets/sprites/phaser2.png"
   ],
+  "src/game objects/graphics/_wip/single obj viewer.js": [
+    "/src/game objects/graphics/_wip/single obj viewer.js",
+    "/assets/text/bevelledcube.obj",
+    "/assets/text/chaosphere.obj",
+    "/assets/text/computer.obj",
+    "/assets/text/geosphere.obj",
+    "/assets/text/implodedcube.obj",
+    "/assets/text/monobird.obj",
+    "/assets/text/spike.obj",
+    "/assets/text/teapot.obj",
+    "/assets/text/torus.obj"
+  ],
+  "src/game objects/graphics/_wip/obj world.js": [
+    "/src/game objects/graphics/_wip/obj world.js",
+    "/assets/demoscene/sky.png",
+    "/assets/text/bevelledcube.obj",
+    "/assets/text/computer.obj",
+    "/assets/text/geosphere.obj",
+    "/assets/text/spike.obj",
+    "/assets/text/torus.obj",
+    "/assets/text/grid.obj",
+    "/assets/text/phaser-logo-3d.obj"
+  ],
+  "src/game objects/graphics/_wip/obj world cam.js": [
+    "/src/game objects/graphics/_wip/obj world cam.js",
+    "/assets/demoscene/sky.png",
+    "/assets/text/bevelledcube.obj",
+    "/assets/text/computer.obj",
+    "/assets/text/geosphere.obj",
+    "/assets/text/spike.obj",
+    "/assets/text/torus.obj",
+    "/assets/text/grid.obj",
+    "/assets/text/phaser-logo-3d.obj"
+  ],
+  "src/game objects/graphics/_wip/obj viewer.js": [
+    "/src/game objects/graphics/_wip/obj viewer.js",
+    "/assets/text/phaser-logo-3d.obj",
+    "/assets/text/bevelledcube.obj",
+    "/assets/text/chaosphere.obj",
+    "/assets/text/computer.obj",
+    "/assets/text/geosphere.obj",
+    "/assets/text/implodedcube.obj",
+    "/assets/text/monobird.obj",
+    "/assets/text/spike.obj",
+    "/assets/text/torus.obj"
+  ],
+  "src/game objects/graphics/_wip/draw triangles.js": [
+    "/src/game objects/graphics/_wip/draw triangles.js",
+    "/assets/text/teapot.obj"
+  ],
+  "src/game objects/graphics/_wip/circle spin.js": [
+    "/src/game objects/graphics/_wip/circle spin.js"
+  ],
   "src/game objects/graphics/transform.js": [
     "/src/game objects/graphics/transform.js"
   ],
@@ -8564,59 +8646,6 @@
   ],
   "src/game objects/graphics/arc stroke.js": [
     "/src/game objects/graphics/arc stroke.js"
-  ],
-  "src/game objects/graphics/_wip/single obj viewer.js": [
-    "/src/game objects/graphics/_wip/single obj viewer.js",
-    "/assets/text/bevelledcube.obj",
-    "/assets/text/chaosphere.obj",
-    "/assets/text/computer.obj",
-    "/assets/text/geosphere.obj",
-    "/assets/text/implodedcube.obj",
-    "/assets/text/monobird.obj",
-    "/assets/text/spike.obj",
-    "/assets/text/teapot.obj",
-    "/assets/text/torus.obj"
-  ],
-  "src/game objects/graphics/_wip/obj world.js": [
-    "/src/game objects/graphics/_wip/obj world.js",
-    "/assets/demoscene/sky.png",
-    "/assets/text/bevelledcube.obj",
-    "/assets/text/computer.obj",
-    "/assets/text/geosphere.obj",
-    "/assets/text/spike.obj",
-    "/assets/text/torus.obj",
-    "/assets/text/grid.obj",
-    "/assets/text/phaser-logo-3d.obj"
-  ],
-  "src/game objects/graphics/_wip/obj world cam.js": [
-    "/src/game objects/graphics/_wip/obj world cam.js",
-    "/assets/demoscene/sky.png",
-    "/assets/text/bevelledcube.obj",
-    "/assets/text/computer.obj",
-    "/assets/text/geosphere.obj",
-    "/assets/text/spike.obj",
-    "/assets/text/torus.obj",
-    "/assets/text/grid.obj",
-    "/assets/text/phaser-logo-3d.obj"
-  ],
-  "src/game objects/graphics/_wip/obj viewer.js": [
-    "/src/game objects/graphics/_wip/obj viewer.js",
-    "/assets/text/phaser-logo-3d.obj",
-    "/assets/text/bevelledcube.obj",
-    "/assets/text/chaosphere.obj",
-    "/assets/text/computer.obj",
-    "/assets/text/geosphere.obj",
-    "/assets/text/implodedcube.obj",
-    "/assets/text/monobird.obj",
-    "/assets/text/spike.obj",
-    "/assets/text/torus.obj"
-  ],
-  "src/game objects/graphics/_wip/draw triangles.js": [
-    "/src/game objects/graphics/_wip/draw triangles.js",
-    "/assets/text/teapot.obj"
-  ],
-  "src/game objects/graphics/_wip/circle spin.js": [
-    "/src/game objects/graphics/_wip/circle spin.js"
   ],
   "src/game objects/extern/threejs cube.js": [
     "/src/game objects/extern/threejs cube.js",
@@ -9811,6 +9840,9 @@
     "/assets/skies/toxic.png",
     "/assets/pics/skull.png"
   ],
+  "src/display/color/rgb to color.js": [
+    "/src/display/color/rgb to color.js"
+  ],
   "src/display/color/random gray.js": [
     "/src/display/color/random gray.js"
   ],
@@ -9820,20 +9852,17 @@
   "src/display/color/lighten.js": [
     "/src/display/color/lighten.js"
   ],
+  "src/display/color/integer to color.js": [
+    "/src/display/color/integer to color.js"
+  ],
+  "src/display/color/hex to color.js": [
+    "/src/display/color/hex to color.js"
+  ],
   "src/display/color/darken.js": [
     "/src/display/color/darken.js"
   ],
   "src/display/color/brighten.js": [
     "/src/display/color/brighten.js"
-  ],
-  "src/display/color/Value To Color.js": [
-    "/src/display/color/Value To Color.js"
-  ],
-  "src/display/color/RGB String To Color.js": [
-    "/src/display/color/RGB String To Color.js"
-  ],
-  "src/display/color/Hex String To Color.js": [
-    "/src/display/color/Hex String To Color.js"
   ],
   "src/display/blend modes/particle.js": [
     "/src/display/blend modes/particle.js",
@@ -9959,6 +9988,12 @@
     "/src/depth sorting/z index.js",
     "/assets/pics/ayu2.png"
   ],
+  "src/depth sorting/sprite depth index.js": [
+    "/src/depth sorting/sprite depth index.js",
+    "/assets/tests/fruit/veg.png",
+    "/assets/tests/fruit/veg.json",
+    "/assets/sprites/mushroom2.png"
+  ],
   "src/depth sorting/remove from display list.js": [
     "/src/depth sorting/remove from display list.js",
     "/assets/sprites/diamonds32x5.png"
@@ -9984,20 +10019,17 @@
     "/src/depth sorting/bring to top.js",
     "/assets/sprites/block.png"
   ],
-  "src/depth sorting/Depth Sorting.js": [
-    "/src/depth sorting/Depth Sorting.js",
-    "/assets/tests/fruit/veg.png",
-    "/assets/tests/fruit/veg.json",
-    "/assets/sprites/mushroom2.png"
-  ],
-  "src/depth sorting/3D depth sort.js": [
-    "/src/depth sorting/3D depth sort.js",
+  "src/depth sorting/ball mesh depth sort.js": [
+    "/src/depth sorting/ball mesh depth sort.js",
     "/assets/sprites/shinyball.png",
     "/assets/text/bevelledcube.obj",
     "/assets/text/geosphere.obj",
     "/assets/text/implodedcube.obj",
     "/assets/text/spike.obj",
     "/assets/text/torus.obj"
+  ],
+  "src/demoscene/_wip/birdy nam nam.js": [
+    "/src/demoscene/_wip/birdy nam nam.js"
   ],
   "src/demoscene/vertical raster wave.js": [
     "/src/demoscene/vertical raster wave.js",
@@ -10014,9 +10046,6 @@
   "src/demoscene/chunky raster bars.js": [
     "/src/demoscene/chunky raster bars.js",
     "/assets/demoscene/raster-bw-64.png"
-  ],
-  "src/demoscene/birdy nam nam.js": [
-    "/src/demoscene/birdy nam nam.js"
   ],
   "src/components/data/store scene data.js": [
     "/src/components/data/store scene data.js"
@@ -10884,6 +10913,10 @@
   "src/bugs/4337 drag destroy.js": [
     "/src/bugs/4337 drag destroy.js"
   ],
+  "src/bugs/0000 onupdate.js": [
+    "/src/bugs/0000 onupdate.js",
+    "/assets/tweens/spacetank.png"
+  ],
   "src/bugs/0000 multi atlas complete.js": [
     "/src/bugs/0000 multi atlas complete.js",
     "/assets/atlas/tp3-multi-atlas.json",
@@ -10934,6 +10967,10 @@
     "/src/bugs/0000 char index.js",
     "/assets/fonts/bitmap/shortStack.png",
     "/assets/fonts/bitmap/shortStack.xml"
+  ],
+  "src/bugs/0000 canvastexture resize.js": [
+    "/src/bugs/0000 canvastexture resize.js",
+    "/assets/swatches/deluxe-paint-swatch.png"
   ],
   "src/audio/Web Audio/volume mute rate detune.js": [
     "/src/audio/Web Audio/volume mute rate detune.js",
@@ -11317,6 +11354,12 @@
   ],
   "src/animation/play after repeat.js": [
     "/src/animation/play after repeat.js",
+    "/assets/animations/alien.png",
+    "/assets/animations/alien.json",
+    "/assets/pics/space-wreck.jpg"
+  ],
+  "src/animation/play after random delay.js": [
+    "/src/animation/play after random delay.js",
     "/assets/animations/alien.png",
     "/assets/animations/alien.json",
     "/assets/pics/space-wreck.jpg"
